@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "League Spartan";
+}
+body {
+  overflow-x: hidden;
+}
+.landing-navigation {
+  padding: 40px 0px 40px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  height: 10%;
+}
+.landing-items {
+  display: flex;
+  list-style: none;
+}
+.landing-items li {
+  margin: 0 10px;
+}
+.full-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/leaves.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.full-remain {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.full-remain .subtitle {
+  margin-top: 10px;
+  font-size: 20px;
+}
